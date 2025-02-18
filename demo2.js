@@ -27,6 +27,7 @@ class EqTriangle extends GeometricShape {
     }
 }
 
+
 class Rectangle extends GeometricShape {
     constructor(w, h) {
         super();
@@ -57,4 +58,4 @@ function cumulateShapes(gShapes){
 
 const shapes = [new EqTriangle(3,5), new Rectangle(2,3)];
 
-console.log(cumulateShapes(shapes));
+console.log("Cumulate area shapes result: "+cumulateShapes(shapes));
