@@ -29,15 +29,15 @@ JSsophia organises sessions for JS community knowledge sharing
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+
+# Who I am ?
+
 ---
 transition: fade-out
 layout: image-left
 image: https://th.bing.com/th/id/OIP.sHJhzOYgmCssr6qRTREQvwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7
 backgroundSize: 20em 20em
 ---
-
-# Who I am ?
-
 Olfa Arfani
 
 
@@ -184,7 +184,7 @@ console.log(cumulateShapes(shapes));
 transition: slide-up
 ---
 
-# What we need to avoid!
+# What we need to avoid (!)
 
 ---
 transition: slide-up
