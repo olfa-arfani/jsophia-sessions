@@ -11,7 +11,7 @@
 
 
 # Link to First JS Sophia session 25
-Edit the [session1](./slides.md#session1) to see the changes.
+Edit the [session1](./jsophia-polymorphism/slides.md#session1) to see the changes.
 
 ## Table of contents
 
