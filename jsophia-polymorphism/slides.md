@@ -1,9 +1,9 @@
---- #1
+---
 # You can also start simply with 'default'
 theme: unicorn
 background: 
 # some information about your slides (markdown enabled)
-title: Welcome to JSophia 25
+title: Welcome to this Javascript session
 info: |
   ## JSsophia presentation for participants
   Learn more at [jsophia.com](https://jsophia.com)
@@ -15,35 +15,40 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+
 ---
-
-# Welcome to First JSsophia session 25
-
-JSsophia organises sessions for JS community knowledge sharing
 
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
-
 --- 
 layout: two-cols
 layoutClass: gap-16
 ---
+
+
+
+<div class="abs-br m-6 text-xl">
+  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
 
 # Who I am ?
 
 
 Olfa Arfani
 
-<img src="../JSSophia.svg" width="50"/>
-
 Full stack developper and move to cloud specialized
 
 - Link to GitHub : [https://github.com/olfa-arfani](https://github.com/olfa-arfani)
 - Link to LinkedIn : [https://linkedin.com/in/olfaarfani](https://linkedin.com/in/olfaarfani)
-- Link to Website : [https://www.olfaarfani.com](https://www.olfaarfani.com)
+<!-- - Link to Website : [https://www.olfaarfani.com](https://www.olfaarfani.com) -->
 
 
 <!--
@@ -76,6 +81,9 @@ layoutClass: gap-16
 <Toc text-sm minDepth="1" maxDepth="2" />
 ---
 transition: slide-up
+layout: image-left
+image: /swimming-cat.gif
+class: cat-on-the-left
 ---
 
 # JS polymorphism introduction
@@ -95,6 +103,9 @@ transition: slide-up
 
 ---
 transition: slide-up
+layout: image-right
+image: /swimming-dog.gif
+class: dog-on-the-right
 ---
 ## Method Override
 
@@ -108,7 +119,6 @@ Example : Dog class redefine method speak() and result is 'le chien aboie'
 - Redefine method
 - Usage and invoke the method
 - Execution and results
-
 
 ---
 transition: slide-up
@@ -172,11 +182,6 @@ const shapes = [new EqTriangle(3,5), new Rectangle(2,3)];
 console.log(cumulateShapes(shapes));
 ```
 
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
 
 ---
 transition: slide-up
@@ -194,9 +199,85 @@ transition: slide-up
 
 --- 
 transition: slide-up
+image: /session-stack.jpg
+layout: image-right
+class: session-stack-img-right
 ---
 
 # Session stack study
+
+Some opensource tools live demo for session record and replay: https://www.rrweb.io/#demos
+What's SessionStack AI enhanced tool?
+
+## Browser state changes
+
+Sample code snippet
+```js {all|5|7|7-8|10|all} twoslash
+console.log("Browser state change with url visiting demo");
+```
+
+## Segment filters
+
+Sample code snippet
+```js {all|5|7|7-8|10|all} twoslash
+console.log("HTML state change demo");
+```
+--- 
+transition: slide-up
+image: /session-stack.jpg
+layout: image-left
+class: session-stack-img-right
+---
+
+### Dead click 
+Dead clicks are clicks or taps that do not affect the page with changes such as:
+
+- DOM events
+- URL changes
+- Console Log Events
+
+Which indicates poor UX
+
+Sample code snippet
+```js {all|5|7|7-8|10|all} twoslash
+console.log("Dead click demo");
+```
+--- 
+transition: slide-up
+image: /session-stack.jpg
+layout: image-left
+class: session-stack-img-right
+---
+
+### Rage click
+
+A rage click occurs when a user performs multiple quick clicks on the same element in a row. Among the possible explanations are:
+
+- The user does not understand which is a clickable element 
+- Buttons, links, and icons do not function properly
+- Unable to click because of the invisible overlay above everything
+
+Sample code snippet
+```js {all|5|7|7-8|10|all} twoslash
+console.log("Rage click demo");
+```
+
+### User input
+
+- Option CSS selector
+- Option "Text" and "Text contains"
+
+---
+transition: slide-up
+---
+
+### Custom events
+
+Sample code snippet
+```js {all|5|7|7-8|10|all} twoslash
+console.log("Add to cart evt 'Déposer une annonce Le bon coin' demo")
+```
+
 
 ---
 transition: slide-up
