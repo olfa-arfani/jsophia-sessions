@@ -24,13 +24,15 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 --- 
-layout: two-cols
-layoutClass: gap-16
+layout: image-right
+image: /aws-genai.JPG
+class: cat-on-the-left
 ---
 
 
 
-<div class="abs-br m-6 text-xl">
+
+<div class="abs-br m-5 text-xl">
   <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
     <carbon:edit />
   </button>
