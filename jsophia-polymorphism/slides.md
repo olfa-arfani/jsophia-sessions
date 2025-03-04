@@ -199,34 +199,35 @@ transition: slide-up
 
 --- 
 transition: slide-up
-image: /session-stack.jpg
+image: /session-stack-logo.jpg
 layout: image-right
 class: session-stack-img-right
 ---
 
 # Session stack study
 
-Some opensource tools live demo for session record and replay: https://www.rrweb.io/#demos
+Some opensource tools live demo for session record and replay: [https://www.rrweb.io]
 What's SessionStack AI enhanced tool?
+Let's talk about SessionStack AI Enhanced tool : mainly used for online shopping experience improvement.
 
 ## Browser state changes
 
-Sample code snippet
-```js {all|5|7|7-8|10|all} twoslash
+```js {all} twoslash
 console.log("Browser state change with url visiting demo");
 ```
 
 ## Segment filters
 
 Sample code snippet
-```js {all|5|7|7-8|10|all} twoslash
+
+```js {all} twoslash
 console.log("HTML state change demo");
 ```
 --- 
 transition: slide-up
-image: /session-stack.jpg
+image: /dead-click2.gif
 layout: image-left
-class: session-stack-img-right
+class: session-stack-dead-click-img-right
 ---
 
 ### Dead click 
@@ -239,14 +240,14 @@ Dead clicks are clicks or taps that do not affect the page with changes such as:
 Which indicates poor UX
 
 Sample code snippet
-```js {all|5|7|7-8|10|all} twoslash
+```js {all} twoslash
 console.log("Dead click demo");
 ```
 --- 
 transition: slide-up
-image: /session-stack.jpg
+image: /rage-click.gif
 layout: image-left
-class: session-stack-img-right
+class: session-stack-rage-click-img-right
 ---
 
 ### Rage click
@@ -258,9 +259,10 @@ A rage click occurs when a user performs multiple quick clicks on the same eleme
 - Unable to click because of the invisible overlay above everything
 
 Sample code snippet
-```js {all|5|7|7-8|10|all} twoslash
+```js  {all} twoslash
 console.log("Rage click demo");
 ```
+
 
 ### User input
 
@@ -269,12 +271,15 @@ console.log("Rage click demo");
 
 ---
 transition: slide-up
+image: /leboncoin-depot-annonce.png
+layout: image-left
+class: session-stack-user-input-img-right
 ---
 
 ### Custom events
 
 Sample code snippet
-```js {all|5|7|7-8|10|all} twoslash
+```js {all} twoslash
 console.log("Add to cart evt 'Déposer une annonce Le bon coin' demo")
 ```
 
