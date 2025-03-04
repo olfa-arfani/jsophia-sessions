@@ -3,7 +3,7 @@
 theme: unicorn
 background: 
 # some information about your slides (markdown enabled)
-title: Welcome to this Javascript session
+title: Le polymorphisme javascript et exemples d'application
 info: |
   ## JSsophia presentation for participants
   Learn more at [jsophia.com](https://jsophia.com)
@@ -28,7 +28,6 @@ layout: image-right
 image: /aws-genai.JPG
 class: cat-on-the-left
 ---
-
 
 
 
